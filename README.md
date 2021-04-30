@@ -1,9 +1,6 @@
 library(MASS) ##used to calculate inverse for non squared as well as square matrices
 > makeCacheMatrix<-function(x=matrix()){
 + inv<-NULL ##initializing inverse as NULL
-+ }
-> makeCacheMatrix<-function(x=matrix()){
-+ inv<-NULL
 + set<-function(y){
 + x<<-y
 + inv<<-NULL
